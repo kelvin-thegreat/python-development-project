@@ -1,4 +1,4 @@
-# ChatterBot: Build a Chatbot with Python
+# Conversational AI Agents: Build a Chatbot with Python
 
 This repository contains code related to the tutorial on [building a Python chatbot with ChatterBot](https://realpython.com/build-a-chatbot-python-chatterbot/).
 
@@ -20,22 +20,38 @@ Then you can navigate into the folder `source_code_final/` and train and start t
 After training, you'll see an interactive prompt that you can chat with:
 
 ```text
+> Hi
+🪴 Welcome, friend 🤗
+> Thanks for the Green Welcome
+🪴 Ah yes avocados 🥑!
+> Avocados?
+🪴 Yes, there are a couple of seedlings that wanted to live
+> did you mean avocado seedlings
+🪴 The leafs that she had are getting dryer and dryer. But she’s also growing plenty of new ones
+> did you mean monstera?
+🪴 Fingers crossed 🤞
+> No crops in pots
+🪴 Wait, weren’t we talking about avocados?
+> cleae
+🪴 What do you consider 'your plants'?
+> Mangoes
+🪴 Lol
+> lets talk about mangoes
+🪴 10/10 thrips don't like this simple trick 😅
 > hi
 🪴 Welcome, friend 🤗
 > thanks for the green welcome
-🪴 I let you
-> you let me be here?
-🪴 It's a monsters!
-> did you mean monstera?
-🪴 The leafs that she had are getting dryer and dryer. But she’s also growing plenty of new ones
-> who?
-🪴 Do raindrops touch their leaves?
-> very philosophical!
-🪴 Lol
-> ;)
-🪴 I don't grow any crop at home
-> no crops in pots
-🪴 Ah, gotcha!
+🪴 Welcome, friend 🤗
+> thanks
+🪴 Kudos go mostly to my dad
+> your dad?    
+🪴 so many of them came up that he had about two dining room tables full of basil plants, each in their own pots...
+> sounds like the perect experiment
+🪴 
+> I like the term
+🪴 Motivational speeches
+> what about the speeches
+🪴 The cream must be the best of the best
 ```
 
 The bot will learn from the replies you give and improve its accuracy. You can quit the interactive prompt by typing any of the `exit_conditions` defined in `bot.py`.
