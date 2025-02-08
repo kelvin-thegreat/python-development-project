@@ -1,7 +1,3 @@
-Here is your **README.md** file with the sample output included:  
-
----
-
 # **Odd Number Doubling Script**  
 
 ## 📌 Overview  
@@ -20,17 +16,17 @@ This Python script takes an **odd starting number**, **doubles it a set number o
 ## 🔧 Usage  
 ### **1️⃣ Run the script**  
 ```sh
-python upwork.py
+python OddMatch.py
 ```
 or provide command-line arguments:  
 ```sh
-python upwork.py <odd_start_number> <target_number>
+python OddMatch.py <odd_start_number> <target_number>
 ```
 
 ### **2️⃣ Example Runs**  
 #### **Run 1 (With Arguments)**  
 ```sh
-python upwork.py 3 35
+python OddMatch.py 3 35
 ```
 **Output:**  
 ```
@@ -42,7 +38,7 @@ python upwork.py 3 35
 
 #### **Run 2 (With User Input)**  
 ```sh
-python upwork.py
+python OddMatch.py
 ```
 **Input & Output:**  
 ```
@@ -60,7 +56,7 @@ Enter the number of times to double: 5
 
 #### **Run 3 (Matching 1 Above)**  
 ```sh
-python upwork.py
+python OddMatch.py
 ```
 **Input & Output:**  
 ```
@@ -75,7 +71,7 @@ Enter the number of times to double: 20
 
 #### **Run 4 (Another Case of Matching 1 Above)**  
 ```sh
-python upwork.py
+python OddMatch.py
 ```
 **Input & Output:**  
 ```
@@ -90,7 +86,7 @@ Enter the number of times to double: 5
 
 #### **Run 5 (No Match Found)**  
 ```sh
-python upwork.py
+python OddMatch.py
 ```
 **Input & Output:**  
 ```
@@ -112,7 +108,7 @@ Enter the number of times to double: 4
 
 ## 📂 File Structure  
 ```
-upwork.py  # Main script
+OddMatch.py  # Main script
 README.md  # Documentation
 ```
 
